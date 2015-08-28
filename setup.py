@@ -8,7 +8,7 @@ setup(
   author_email = 'piyushc79@gmail.com',
   maintainer='Piyush Chourasiya',
   maintainer_email='piyushc79@gmail.com',
-  url = 'https://github.com/piyushc79/RedisClusterCache/', 
+  url = 'https://github.com/piyushc79/RedisClusterCache/dj_rcc/', 
   download_url = 'https://github.com/piyushc79/RedisClusterCache/dj_rcc/',
   install_requires=[
       'redis>=2.10.2',
