@@ -4,7 +4,7 @@ setup(
   version = '1.0.0',
   packages = ['RedisClusterCache'],
   description='Redis Cluster Cache library for redis 3.0.0 built on top of redis-py-cluster',
-  long_discription=README + '\n\n' + history,
+  long_discription=README.md + '\n\n' + history,
   author = 'Piyush Chourasiya',
   author_email = 'piyushc79@gmail.com',
   maintainer='Piyush Chourasiya',
