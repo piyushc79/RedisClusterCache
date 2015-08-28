@@ -1,15 +1,15 @@
 from distutils.core import setup
 setup(
-  name = 'RedisClusterCache',
+  name = 'dj_rcc',
   version = '1.0.0',
-  packages = ['RedisClusterCache'],
+  packages = ['dj_rcc'],
   description='Redis Cluster Cache library for redis 3.0.0 built on top of redis-py-cluster',
   author = 'Piyush Chourasiya',
   author_email = 'piyushc79@gmail.com',
   maintainer='Piyush Chourasiya',
   maintainer_email='piyushc79@gmail.com',
-  url = 'https://github.com/piyushc79/RedisClusterCache/', 
-  download_url = 'https://github.com/piyushc79/RedisClusterCache/',
+  url = 'https://github.com/piyushc79/RedisClusterCache/dj_rcc/', 
+  download_url = 'https://github.com/piyushc79/RedisClusterCache/dj_rcc/',
   install_requires=[
       'redis>=2.10.2',
       'redis-py-cluster==1.0.0',
