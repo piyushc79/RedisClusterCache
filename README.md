@@ -9,11 +9,11 @@
  * Optional Python: hiredis >= 0.1.3
  
 # Installation
- * Latest stable release from pypi :
+  Latest stable release from pypi :
 ```
 $ pip install dj_rcc
 ```
- * or from source :
+  or from source :
 ```
 $ python setup.py install
 ```
