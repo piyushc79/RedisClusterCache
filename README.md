@@ -14,6 +14,6 @@
 $ pip install dj_rcc
 ```
  * or from source :
- ```
+```
 $ python setup.py install
 ```
