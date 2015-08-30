@@ -17,3 +17,15 @@ $ pip install dj_rcc
 ```
 $ python setup.py install 
 ```
+
+# How to setup a cluster manually
+
+ - Redis cluster tutorial: http://redis.io/topics/cluster-tutorial
+ - Redis cluster specs: http://redis.io/topics/cluster-spec
+
+# Docker
+
+A fully functional docker image can be found at [Docker-redis-cluster](https://github.com/Grokzen/docker-redis-cluster).
+
+See repo README for detailed instructions how to setup.
+
