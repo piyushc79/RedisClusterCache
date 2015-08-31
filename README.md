@@ -6,7 +6,7 @@
 # Dependencies & supported python versions
  * Python: redis >= 2.10.2 is required
  * Redis server >= 3.0.0 is required
- * Optional Python: hiredis >= 0.1.3
+ * Python: hiredis >= 0.1.3
  
 # Installation
   Latest stable release from pypi :
