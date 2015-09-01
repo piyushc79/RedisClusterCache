@@ -1,4 +1,4 @@
-Change Caches settings in your virtualenv environments.localpy as below
+Change Caches settings in your virtualenv environments/local.py as below
 REDIS_HOSTS = [
     '127.0.0.1',
     '127.0.0.1',
