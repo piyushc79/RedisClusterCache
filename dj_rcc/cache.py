@@ -75,6 +75,9 @@ class RedisClusterCache(BaseCache):
             )
         value = self._client.get(key)
 
+        if value == None:
+            return default
+
         if value:
             value = pickle.loads(value)
 
