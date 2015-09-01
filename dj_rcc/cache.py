@@ -83,6 +83,18 @@ class RedisClusterCache(BaseCache):
     def set(self, key, value, timeout=DEFAULT_TIMEOUT, version=None):
         value = pickle.dumps(value)
         self._client.set(key, value, timeout)
+        return True
 
     def delete(self, key, version=None):
-        self._client.delete(key)
+        if not isinstance(key, str) and not isinstance(key, unicode):
+            raise TypeError(
+                'Expecting str for key, got {} instead: {}'.format(
+                    type(key), key
+                )
+            )
+        if self._client.get(key) == None:
+            return False
+        else:
+            self._client.delete(key)
+            return True
+
